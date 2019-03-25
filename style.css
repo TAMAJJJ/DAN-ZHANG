@@ -1,0 +1,203 @@
+/*
+
+font
+
+*/
+
+p,.caption {
+    font-family: Bradley Hand, cursive;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+h1,h2{
+    font-family: Chalkduster, fantasy;
+    font-weight: bold;
+}
+h1{
+    font-size: 40px;
+
+}
+h2{
+    font-size: 30px;
+}
+/*
+
+header
+
+*/
+header{
+    overflow: hidden;
+    width:100%;
+    height: auto;
+    background-color: #5c7ed6;
+    padding: 20px 10px;
+}
+
+.selfie{
+    width: 62.5%;
+    float:left;
+    max-height: 250px;
+    max-width:250px;
+    border-radius: 5px;
+}
+
+.head_title{
+    position: absolute;
+}
+.pic{
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+figure{
+    text-align:center;
+}
+
+@media screen and (min-width:1400px){
+.selfie{
+    width: 62.5%;
+    margin-top: 2.5%;
+    margin-left: 10%;
+    max-height: 350px;
+    max-width:350px;
+}
+
+.head_title{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 50%;
+}
+
+.intro{
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 50%;
+}
+
+.introduction{
+    border-left: 30px;
+    width: 80%;
+    height: 30%;
+    margin-left: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.works{
+    width:100%;
+}
+
+.inner_works{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+}
+
+@media screen and (min-width:666px) and (max-width:1399px){
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    p,.caption {
+        font-family: Bradley Hand, cursive;
+        font-weight: 500;
+        font-size: 17px;
+    }
+
+    .selfie{
+        width: 50%;
+        margin-top: 2.5%;
+        margin-left: 10%;
+        max-height: 250px;
+        max-width:350px;
+    }
+
+    .head_title{
+        position: absolute;
+        margin-top: 12%;
+        margin-left: 60%;
+    }
+
+    .intro{
+        position: absolute;
+        margin-top: 18%;
+        margin-left: 60%;
+    }
+
+    .introduction{
+        border-left: 30px;
+        width: 80%;
+        height: 30%;
+        margin-left: auto;
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    .works{
+        width:100%;
+    }
+
+    .pic{
+        border-radius: 5px;
+        max-width: 70%;
+    }
+
+}
+
+@media screen and (max-width:665px){
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    p,.caption {
+        font-family: Bradley Hand, cursive;
+        font-weight: 500;
+        font-size: 13px;
+    }
+
+    .selfie{
+        width: 40%;
+        margin-top: 2.5%;
+        margin-left: 10%;
+        max-height: 250px;
+        max-width:350px;
+    }
+
+    .head_title{
+        position: absolute;
+        margin-top: 15%;
+        margin-left: 55%;
+    }
+
+    .intro{
+        position: absolute;
+        margin-top: 20%;
+        margin-left: 50%;
+    }
+
+    .introduction{
+        border-left: 30px;
+        width: 80%;
+        height: 30%;
+        margin-left: auto;
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    .works{
+        width:100%;
+    }
+
+    .pic{
+        border-radius: 5px;
+        max-width: 70%;
+    }
+
+}
